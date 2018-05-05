@@ -5,7 +5,7 @@ var path = require('path');
 module.exports = {
 	context: path.join(__dirname, "src"),
 	devtool: debug ? "inline-sourcemap" : false,
-	entry: "./js/App.js",
+	entry: "./js/index.js",
 	resolve: {
 		extensions: ['', '.js', '.jsx']
 	},
